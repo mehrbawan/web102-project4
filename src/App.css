@@ -1,10 +1,141 @@
+/* App Container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;      
+  text-align: center;       
+  background-color: #bed3aa; 
+}
+
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;  
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 600px;  
+}
+
+.stats-col{
+  margin: 30px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.poke-image {
+  width: 300px;
+}
+
+.attributeButton{
+  width: 100px;
+}
+
+.attributeButton[type="fire"] {
+  background-color: rgb(184, 31, 31);
+  color: white;
+  
+}
+
+.attributeButton[type="fighting"] {
+  background-color: brown;
+  color: white;
+}
+
+.attributeButton[type="rock"] {
+  background-color: rgb(149, 141, 86);
+  color: white;
+}
+
+.attributeButton[type="ground"] {
+  background-color: rgb(224, 161, 105);
+  color: white;
+}
+
+.attributeButton[type="normal"] {
+  background-color: gray;
+  color: white;
+}
+
+.attributeButton[type="bug"] {
+  background-color: rgb(169, 199, 105);
+}
+
+.attributeButton[type="dark"] {
+  background-color: rgb(46, 42, 38);
+  color: white;
+}
+
+.attributeButton[type="dragon"] {
+  background-color: rgb(83, 75, 175);
+  color: white;
+}
+
+.attributeButton[type="fairy"] {
+  background-color: rgb(253, 179, 191);
+}
+
+.attributeButton[type="electric"] {
+  background-color: rgb(239, 200, 27);
+}
+
+.attributeButton[type="ice"] {
+  background-color: rgb(154, 216, 216);
+}
+
+.attributeButton[type="ghost"] {
+  background-color: rgb(44, 42, 165);
+  color: white;
+}
+
+.attributeButton[type="flying"] {
+  background-color: rgb(175, 185, 238);
+}
+
+.attributeButton[type="grass"] {
+  background-color: rgb(42, 179, 40);
+  color: white;
+}
+
+.attributeButton[type="psychic"] {
+  background-color: rgb(142, 20, 77);
+  color: white;
+}
+
+.attributeButton[type="water"] {
+  background-color: rgb(32, 88, 209);
+  color: white;
+}
+
+.attributeButton[type="poison"] {
+  background-color: rgb(130, 49, 155);
+  color: white;
+}
+
+.attributeButton[type="steel"] {
+  background-color: rgb(125, 125, 125);
+  color: white;
+}
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  align-items: center;
 }
-
+/* 
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -39,4 +170,7 @@
 
 .read-the-docs {
   color: #888;
-}
+} */
+
+
+
