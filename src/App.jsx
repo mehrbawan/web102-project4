@@ -63,6 +63,8 @@ function App() {
 
   return (
     <div className="app-container">
+      <br></br>
+      <img src="https://archives.bulbagarden.net/media/upload/2/2f/Poke_Ball_RG.png" width="100px"></img>
       <h1>Random Pokémon Generator</h1>
       <h2>Summon random Pokémon and filter out by your criteria!</h2>
       {loading ? (
@@ -71,7 +73,7 @@ function App() {
         <div className="content-container">
           {pokemonData && (
             <>
-              <h3>{pokemonData.species.name}</h3>
+              <h3>{pokemonData.species.name.toUpperCase()}</h3>
               <img className="poke-image"
                 src={pokemonData.sprites.front_default}
                 alt={pokemonData.species.name}

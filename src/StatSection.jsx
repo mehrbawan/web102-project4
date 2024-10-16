@@ -3,7 +3,7 @@ import React from 'react';
 const StatSection = ({ title, data, excludedSet, toggleExclude }) => {
   return (
     <div className="stats-col">
-      <h3>{title}</h3>
+      <h2>{title}</h2>
       {data.map((item, index) => {
         const isTypeSection = title.toLowerCase() === "types";  // Check if the section is for Types
         return (
@@ -20,7 +20,7 @@ const StatSection = ({ title, data, excludedSet, toggleExclude }) => {
       })}
       
       <div className="excluded-types-container">
-        <h3>{title}</h3>
+        <h3>Excluding:</h3>
         {excludedSet.size > 0 ? (
           <ul>
             {Array.from(excludedSet).map((item, index) => (
