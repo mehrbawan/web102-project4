@@ -33,6 +33,8 @@ Here's a walkthrough of implemented user stories:
 
 <img src='https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2FsdGFoN2QwbjE4ejR2ZzYwNnppaXZ2NWJ5OGxvamRpMnRlMDJ6YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WsuKvlpaeboINf3IlM/giphy-downsized-large.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+<img src='IMB_ng7Avx.GIF' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with Imgplay, Quicktime Player, and Giphy  
 <!-- Recommended tools:
